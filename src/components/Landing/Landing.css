@@ -10,6 +10,14 @@
     text-align: center;
 }
 
+#KreivaLogo{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 12vmin;
+    height: 12vmin;
+}
+
 #Water2{
     position: absolute;
     left: 0%;
@@ -32,7 +40,7 @@
 #Heading{
     font-size: 15vmin;
     position: relative;
-    top: 5vh;
+    top: 8vh;
     padding-bottom:5vh ;
     color: goldenrod;
     margin: 0;

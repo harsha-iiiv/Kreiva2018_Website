@@ -1,0 +1,44 @@
+.Footer{
+    background: #010101;
+    width: 100%;
+    padding: 2%;
+}
+
+#FooterLogo{
+    position: relative;
+    width: 7%;
+    height: 7%;
+    margin-bottom: 5%;
+}
+
+#handlers{
+    /* position: relative; */
+    list-style: none;
+    color: white;
+    width: 15%;
+    height: 3%;
+    margin: 10px;
+}
+
+.List{
+    width: 80vw;
+    margin: auto;
+}
+
+.List li{
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    padding: 0px 1.5vw;
+    font-size: 2vmin;
+    margin-top: 3vh;
+}
+
+.List li:hover{
+    cursor: pointer;
+    color: goldenrod;
+}
+
+.List li:not(:last-child){
+    border-right: 2px solid white;
+}
