@@ -1,0 +1,35 @@
+.Event{
+    background: #262626;
+    box-shadow: 7px 7px 7px #0d0d0d;
+    margin: 5%;
+    box-sizing: border-box;
+    border: 3px solid #1a1a1a;
+    padding: 5vmin;
+}
+
+#Icon{
+    position: relative;
+}
+
+.Event h3{
+    color: goldenrod;
+    font-size: 5vmin;
+}
+
+.Event p{
+    color: white;
+    font-size: 3vmin;
+}
+
+.Event button{
+    color: goldenrod;
+    margin: 1.5vh auto;
+    font-size: 3vmin;
+    background: transparent;
+    border: none;
+    padding: 0 15px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    outline: none;
+}
+
