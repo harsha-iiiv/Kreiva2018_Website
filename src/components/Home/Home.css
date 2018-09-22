@@ -2,123 +2,50 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(bottom,aquamarine,lightblue);
+    background: url('../../assets/images/kreiva-ui_background.png');
+    background-size: cover;
 }
 
-#Water{
+#MainLogo{
     position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
+    width: 30%;
+    left: 35%;
+    top: 10vmin;
+    margin:auto;
+}
+
+#Water_Home{
+    position: absolute;
+    left: 0%;
+    bottom:0%;
+    width:100%;
+    height: 25%; 
+    z-index: 1;
+}
+
+#Ship_Home{
+    position: absolute;
+    height: 20vmax;
+    width: 10vmax;
+    left: 2%;
+    bottom: 15%;
     z-index: 2;
-    animation: waterAnimation 2s ease-in infinite alternate;
 }
 
-#Logo{
+#Date_Home{
     position: absolute;
-    z-index: 2;
-    width: 70vh;
-    height: 70vh;
-    top: 15%;
-    left: 12%;
-}
-
-#Cloud1{
-    position: absolute;
-    z-index: 1;
-    width:400px;
-    height: 200px;
-    top: 15%;
-    left: -6%;
-}
-#Cloud2{
-    position: absolute;
-    z-index: 1;
-    width:400px;
-    height: 180px;
-    top: 22%;
-    right: 10%;
-}
-
-#Cloud3{
-    position: absolute;
-    z-index: 1;
-    width:400px;
-    height: 180px;
-    top: 2%;
-    right:36%;
-}
-#Pirate{
-    position: absolute;
+    bottom: 2%;
+    right: 3%;
+    color: white;
+    font-size: 3vmin;
     z-index: 3;
-    width:50%;
-    height: 95%;
-    right: -9%;
-    animation: pirateAnimation 5s linear 1s,pirateAnimation2 2s linear 6s infinite alternate;
 }
 
-#Dolphin{
+#Social_Home{
     position: absolute;
-    z-index: 1;
-    width: 300px;
-    height: 300px;
-    top: 55%;
-    left: 48%;
-    transform: rotateZ(30deg);
-    animation: dollyAnimation 3s linear 1s infinite;
-}
-
-@keyframes pirateAnimation{
-    0%{
-        transform: translateX(100%);
-    }
-    100%{
-        transform: translateX(0%);
-        right: -10%;
-    }
-}
-
-@keyframes pirateAnimation2{
-    0%{
-        transform:rotateZ(0deg);
-    }
-    100%{
-        transform: rotate(-3deg);
-        transform-origin: right;
-    }
-}
-
-/* h1{
-    color: red;
-    font-size: 60px;
-    z-index: 4;
-} */
-
-@keyframes cloudAnimation{
-    0%{
-        transform: translateX(200%);
-    }
-    100%{
-        transform:translateX(-300%);
-    }
-
-}
-
-@keyframes waterAnimation{
-    0%{
-        height: 100%;
-    }
-    100%{
-        height:110%;
-    }
-}
-
-@keyframes dollyAnimation{
-     0%{
-         transform:rotateZ(-30deg), translateX(-2px);
-     }
-
-     100%{
-         transform :rotateZ(360deg), translateX(-100px);
-     }
+    left: 3%;
+    bottom: 2%;
+    color: white;
+    font-size: 3vmin;
+    z-index: 3;
 }

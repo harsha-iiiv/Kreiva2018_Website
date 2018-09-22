@@ -23,6 +23,7 @@
 .List{
     width: 80vw;
     margin: auto;
+    padding: 0px;
 }
 
 .List li{

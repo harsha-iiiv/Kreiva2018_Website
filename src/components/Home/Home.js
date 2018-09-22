@@ -1,23 +1,18 @@
 import React from 'react';
 import './Home.css';
-import Water from '../../assets/images/water.png';
-import Logo from '../../assets/images/logo.png';
-import Cloud from '../../assets/images/cloud.png';
-import Pirate from '../../assets/images/pirate.png';
-import Dolly from '../../assets/images/dolphin.svg';
+import Water from '../../assets/images/water_2.png';
+import Logo from '../../assets/images/mainLogo.png';
+import Ship from '../../assets/images/kreiva-ui_ship_ship.png';
+
 
 export default () => {
   return (
-    <div className="Home">
-                <img id="Logo" src={Logo} alt="Logo" />
-                <img id="Water" src={Water} alt="water" />
-                <img id="Cloud1" src={Cloud} alt="cloud" />
-                {/* <h1>Coming Soon...Stay Tuned</h1> */}
-  
-                <img id="Cloud2" src={Cloud} alt="cloud" />
-                <img id="Cloud3" src={Cloud} alt="cloud" />
-                <img id="Pirate" src={Pirate} alt="Pirate" />  
-                <img id="Dolphin" src={Dolly} alt="Dolphin" />            
+    <div className="Home container-fluid">
+        <img id="MainLogo" src={Logo} alt="Logo"/>
+        <img id="Water_Home"src={Water} alt="Water" />
+        <img id="Ship_Home"src={Ship} alt="Ship" />
+        <p id="Social_Home">Follow Us</p>
+        <p id="Date_Home">27-28th October, 2018</p>
     </div>
   )
 }
