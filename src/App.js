@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import Landing from './components/Landing/Landing';
 import Events from './components/Events/Events';
 import Footer from './components/Footer/Footer';
+import Members from './components/Members/Members';
 class App extends Component {
   render() {
     return (
@@ -11,6 +12,7 @@ class App extends Component {
           <Home/>
           <Landing/>
           <Events/>
+          <Members/>
           <Footer/>
       </div>
     );

@@ -1,0 +1,13 @@
+.Members{
+        position: relative;
+        width: 100%;
+        background-color: #2d2d2d;
+        padding:2vmin;
+        box-sizing: border-box;
+        z-index: 5;
+        text-align: center;
+}
+
+.TeamTitle{
+    color: goldenrod;
+}

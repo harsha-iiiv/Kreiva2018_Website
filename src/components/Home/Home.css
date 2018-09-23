@@ -49,3 +49,11 @@
     font-size: 3vmin;
     z-index: 3;
 }
+
+#Calendar{
+    position: relative;
+    width: 10%;
+    height: 8%;
+    color: white;
+    margin-right:2%; 
+}
